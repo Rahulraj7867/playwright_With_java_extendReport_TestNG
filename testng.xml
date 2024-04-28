@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+    </listeners>
+    <test name="MyTest">
+        <classes>
+            <class name="com.java.playwright.TestDashboardpage"/>
+        </classes>
+    </test>
+</suite>
